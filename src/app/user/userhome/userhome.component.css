@@ -1,0 +1,75 @@
+.window{
+    background-image: url('../../../assets/lib.jpg');
+   background-size: cover;
+   width: 100%;
+   height: 86%;
+   position: fixed
+}
+.booksearch{
+    height: 23vh;
+    width: 10vw;
+    margin-left: 15%;
+    background-color:  #f0dcf7;
+    margin-top: 9%;
+    position: fixed;
+    background-image: url('../../../assets/booksearch.jpg');
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #A6ACAF;
+    opacity: 1;
+     text-align: center; 
+     cursor: pointer
+}
+    .return{
+    height: 23vh;
+    width: 10vw;
+    margin-left: 42%;
+    background-color:  #f0dcf7;
+    margin-top: 9%;
+    position: fixed;
+    background-image: url('../../../assets/bookreturn.png');
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #A6ACAF;
+    opacity: 1;
+     text-align: center; 
+     cursor: pointer
+}
+     .history{
+    height: 23vh;
+    width: 10vw;
+    margin-left: 70%;
+    background-color:  #f0dcf7;
+    margin-top: 9%;
+    position: fixed;
+    background-image: url('../../../assets/bookhistory.jpg');
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #A6ACAF;
+    opacity: 1;
+     text-align: center; 
+     cursor: pointer
+}
+    .allignfirst{
+    padding-top: 86%;
+    
+    font-family: cursive;
+}
+ .allignsecond{
+    padding-top: 86%;
+    
+    font-family: cursive;
+}
+.allignthird{
+    padding-top: 86%;
+    
+    font-family: cursive;
+}
+.booksearch:hover, .return:hover, .history:hover{
+    height: 24vh;
+    width: 11vw;
+    box-shadow: 10px 10px 5px black;
+}

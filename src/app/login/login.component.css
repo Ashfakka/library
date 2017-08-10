@@ -1,0 +1,58 @@
+.container{
+    width: 50%;
+    height: 50%;
+    transform: translate(50%,50%);
+    text-align: center;
+    background-color:#f0dcf7;
+    opacity: 0.8 ;
+}
+.container .email input{
+    margin-top: 3rem;
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 50%;
+    height: 3rem;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    background:#d6ffff ;
+    opacity: 1;
+    
+}
+.container .password input{
+   margin-top: 1rem;
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 50%;
+    height: 3rem;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    background:#d6ffff ;
+    opacity: 1;
+    
+}
+.window{
+   background-image: url('../../assets/lib.jpg');
+   background-size: cover;
+     width:100%;
+    height: 100vh;
+    
+}
+.container button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #a412d1;
+    width: 50%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin-top: 1rem;
+}

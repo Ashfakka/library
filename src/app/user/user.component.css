@@ -1,0 +1,87 @@
+
+.window{
+    
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+img{
+    /* position: fixed; */
+    height: 5%;
+    width: 5%;
+    margin-top: -3.5%;
+
+}
+.container{
+        width: 17%;
+    height: 438%;
+    transform: translate(50%,50%);
+    text-align: center;
+    background-color:#f0dcf7;
+    opacity: 0.8 ;
+    position: relative;
+}
+.containe2{
+        width: 17%;
+    height: 438%;
+    transform: translate(50%,50%);
+    text-align: center;
+    background-color:#f0dcf7;
+    opacity: 0.8 ;
+    margin-left: 2rem;
+     position: relative;
+}
+
+
+h1{
+    color: #a412d1;
+    background-color: white   ;
+    margin-top: 0rem;
+    font-family:" Roboto";
+
+}
+h2{
+    margin-left: 79rem;
+    margin-top: -3.4rem;
+    float: left;
+    color: #a412d1;
+    cursor: pointer;
+}
+.tabs{
+    width: 100%;
+    background: #a412d1;
+    height: 3rem;
+    margin-top: -1rem;
+}
+.home{
+    color: ivory;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 65rem;
+    
+}
+.home:hover{
+   color: black;
+}
+.about{
+    color: ivory;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 2rem;
+    
+}
+.about:hover{
+   color: black;
+}
+.contact{
+    color: ivory;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 2rem;
+    
+}
+.contact:hover{
+   color: black;
+}

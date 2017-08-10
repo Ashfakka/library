@@ -1,0 +1,22 @@
+<div class="window">
+    <h1>Public Library</h1>
+    <h2 (click)="gotosignin()">Sign In</h2>
+    <div class="tabs">
+        <span class="home" (click)="gotohome()">Home</span>
+        <span class="about" (click)="gotoabout()">About Us</span>
+        <span class="contact" (click)="gotocontact()">Contact Us</span>
+        
+
+        <div class="container"></div>
+        <div class="joinus">
+            <a href="/signup">Join Us</a>
+
+            <div class="quote">
+                <p>A library is the delivery room for the birth of ideas - a place where history comes to life.</p>
+            </div>
+        </div>
+
+
+    </div>
+    <router-outlet></router-outlet>
+</div>

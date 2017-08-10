@@ -1,0 +1,56 @@
+.container{
+    width: 50%;
+    height: 67%;
+    text-align: center;
+    transform: translate(50%,35%);
+    background-color:#f0dcf7;
+    opacity: 0.8 ;
+    z-index: auto;
+
+}
+.container input{
+    margin-top: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 20rem;
+    height: 3rem;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    background:#d6ffff ;
+    opacity: 1;
+    margin-left: 1rem;
+  
+}
+th{
+    font-family: "Roboto", sans-serif;
+    color: #a412d1;
+    font-size: 19px;
+    text-align: left;
+    padding-top: 1.5rem;
+}
+
+.window{
+    background-image: url('../../assets/lib.jpg');
+    background-size: cover;
+    width:100%;
+    height: 100vh;
+    
+}
+.container button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #a412d1;
+    width: 20rem;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin-top: 1rem; 
+    margin-left: 1rem;
+   }
