@@ -1,14 +1,33 @@
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 <div class="window">
-  <div class="container">
-    <div class="email">
-      <input type="text" placeholder="Email ID" />
-    </div>
-    <div class="password">
-      <input type="password" placeholder="Password" />
-    </div>
-    <div>
-      <button (click)="gotouser()">SignIn</button>
-      <button (click)="gotohome()">Cancel</button>
-    </div>
+  <div class="table-responsive">
+    <table class="table">
+      <tr>
+        <td>
+          <div class="email">
+            <input id="email" type="email" name="email" placeholder="Email ID" />
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="password">
+            <input type="password" placeholder="Password" />
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div>
+            <button (click)="gotouser()">SignIn</button>
+            <button (click)="gotohome()">Cancel</button>
+          </div>
+        </td>
+      </tr>
+    </table>
   </div>
+
 </div>

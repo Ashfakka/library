@@ -1,26 +1,27 @@
-.container{
+.table-responsive{
     width: 50%;
-    height: 67%;
+    height: 80%;
     text-align: center;
-    transform: translate(50%,35%);
+    transform: translate(50%,15%);
     background-color:#f0dcf7;
     opacity: 0.8 ;
-    z-index: auto;
-
+     z-index: auto; 
+    position: fixed;
 }
-.container input{
-    margin-top: 1.5rem;
+ input{
+    margin-top: 1rem;
     font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
-    width: 20rem;
-    height: 3rem;
+    width: 30rem;
+    height: 5rem;
     border: 0;
     box-sizing: border-box;
     font-size: 14px;
     background:#d6ffff ;
     opacity: 1;
-    margin-left: 1rem;
+    margin-left: 6rem;
+
   
 }
 th{
@@ -28,7 +29,8 @@ th{
     color: #a412d1;
     font-size: 19px;
     text-align: left;
-    padding-top: 1.5rem;
+   
+    text-transform: uppercase;
 }
 
 .window{
@@ -38,19 +40,24 @@ th{
     height: 100vh;
     
 }
-.container button{
+ button{
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
     background: #a412d1;
-    width: 20rem;
+    width: 30rem;
     border: 0;
     padding: 15px;
     color: #FFFFFF;
     font-size: 14px;
     -webkit-transition: all 0.3 ease;
-    transition: all 0.3 ease;
+    transition: all 0.3 ease; 
     cursor: pointer;
     margin-top: 1rem; 
-    margin-left: 1rem;
+    margin-left: 6rem;
+    display: block;
    }
+table{
+    border-collapse: collapse;
+    width:27rem;
+  } 

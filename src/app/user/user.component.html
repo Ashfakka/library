@@ -1,18 +1,29 @@
-
 <div class="window">
+
   <h1>Public Library</h1>
   <h2> Hi, User</h2>
   <div class="tabs">
-
-
-     
-       
     <span class="home" (click)="gotohome()">Home</span>
     <span class="about" (click)="gotoabout()">About</span>
     <span class="contact" (click)="gotocontact()">Contact Us</span>
-<div class="sidenav">
-    <img src="../../assets/icon.png" (click)="opensidenav()">
-</div>
+    <!-- <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+      <a href="/welcomepage/home">Logout</a>
+
+    </div>
+
+    <div class="but" (click)="openNav()">
+      <div class="a"></div>
+      <div class="a"></div>
+      <div class="a"></div>
+    </div>
+ -->
+
+
+
+
+
+
+    <router-outlet></router-outlet>
   </div>
-   <router-outlet></router-outlet>
 </div>

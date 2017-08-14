@@ -1,0 +1,30 @@
+.window{
+    background-image: url('../../../assets/lib.jpg');
+    background-size: cover;
+    width:100%;
+    height: 100%;
+    
+}
+ .table-responsive{
+     padding: 10px;
+    width: 40rem;
+    height: 11rem;
+    text-align: center;
+    transform: translate(88%,58%); 
+    background-color:#f0dcf7; 
+    opacity: 0.8 ;
+    z-index: auto;
+    box-sizing: content-box;
+    position: fixed;
+} 
+th{
+    font-family: "Roboto", sans-serif;
+    color: #a412d1;
+    font-size: 19px;
+    height: 3rem;
+    text-align: center;
+}
+  table{
+    border-collapse: collapse;
+    width:27rem;
+  } 

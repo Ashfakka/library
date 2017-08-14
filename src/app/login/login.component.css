@@ -1,32 +1,35 @@
-.container{
+.table-responsive{
     width: 50%;
     height: 50%;
     transform: translate(50%,50%);
     text-align: center;
     background-color:#f0dcf7;
     opacity: 0.8 ;
+    box-sizing: content-box;
 }
-.container .email input{
-    margin-top: 3rem;
+
+.table-responsive .email input{
+     margin-top: 2.5rem; 
     font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
     width: 50%;
-    height: 3rem;
-    border: 0;
+    height: 50px;
     box-sizing: border-box;
     font-size: 14px;
     background:#d6ffff ;
     opacity: 1;
+    position: relative;
+    border: 0;
     
 }
-.container .password input{
+.table-responsive .password input{
    margin-top: 1rem;
     font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
     width: 50%;
-    height: 3rem;
+    height: 50px;
     border: 0;
     box-sizing: border-box;
     font-size: 14px;
@@ -41,7 +44,7 @@
     height: 100vh;
     
 }
-.container button{
+.table-responsive button{
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;

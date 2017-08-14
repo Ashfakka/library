@@ -14,6 +14,7 @@ export class WelcomepageComponent implements OnInit {
 
   ngOnInit() {
   }
+  
    gotocontact(){
     this.router.navigateByUrl('/welcomepage/contact');
   }

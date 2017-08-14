@@ -1,35 +1,41 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 <div class="window">
-  <div class="container">
-    <table>
+  <div class="table-responsive">
+    <table class="table">
       <tr>
         <th>Name</th>
     
-        <td><div class="name">
-              <input type="text" placeholder="Name" />
+        <td><div class="form-group">
+              <input type="text" class="form-control" placeholder="Name" />
             </div>
         </td>
       </tr>
       <tr>
         <th>Email ID</th>
 
-        <td><div class="email">
-              <input type="text" placeholder="Email ID" />
+        <td><div class="form-group">
+              <input type="text" class="form-control" placeholder="Email ID" />
             </div>
         </td>
       </tr>
       <tr>
         <th>Password</th>
 
-        <td><div class="password">
-              <input type="password" placeholder="Password" />
+        <td><div class="form-group">
+              <input type="password" class="form-control" placeholder="Password" />
             </div>
         </td>
       </tr>
       <tr>
         <th>Contact</th>
 
-        <td><div class="phone">
-              <input type="text" placeholder="Phone Number" />
+        <td><div class="form-group">
+              <input type="text" class="form-control" placeholder="Phone Number" />
             </div>
         </td>
       </tr>
@@ -37,12 +43,11 @@
         <td>       </td>
         <td>
           <div>
-            <button (click)="gotoLogin()">Sign Up</button>
-            <button (click)="gotoHome()">Cancel</button>
+            <button class="signupbtn" (click)="gotoLogin()">Sign Up</button>
+            <button class="cancelbtn" (click)="gotoHome()">Cancel</button>
           </div>
         </td>
       </tr>
    </table>
   </div>
 </div>
-

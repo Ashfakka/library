@@ -9,18 +9,41 @@ import { Router } from '@angular/router';
 })
 export class UserComponent implements OnInit {
 
-  constructor( private router:Router) { }
+  constructor( private router: Router) { }
 
   ngOnInit() {
   }
-  gotocontact(){
+//    opennav() {
+//     document.getElementById('mySidebar').style.display = 'block';
+// }
+//  closenav() {
+//     document.getElementById('mySidebar').style.display = 'none';
+// }
+  // tslint:disable-next-line:one-line
+  gotocontact() {
     this.router.navigateByUrl('/user/usercontact');
   }
-  gotoabout(){
+
+  gotoabout() {
     this.router.navigateByUrl('/user/userabout');
   }
-  gotohome(){
+  gotohome() {
      this.router.navigateByUrl('/user/userhome');
+  }
+
+
+
+
+   openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  }
+
+  closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.body.style.backgroundColor = "white";
   }
 
 }
