@@ -59,12 +59,12 @@ h2{
 .joinus{
     font-size: 35px;
     cursor: pointer;
-     color: #a412d1;
-     transform: translate(0%, 0%);
-      background-color:#ddcedd;
-       height: 8rem;
-       text-align: center;
-       margin-top: 0.5rem;
+    color: #a412d1;
+    transform: translate(0%, 0%);
+    background-color:#ddcedd;
+    height: 8rem;
+    text-align: center;
+    margin-top: 0.5rem;
 
 }
 
