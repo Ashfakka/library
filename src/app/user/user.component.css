@@ -37,7 +37,7 @@ h2{
 .tabs{
     width: 100%;
     background: #a412d1;
-    height: 5rem;
+    height: 3rem;
     margin-top: -1rem;
    text-align: right;
 }
@@ -45,7 +45,7 @@ h2{
     color: ivory;
     cursor: pointer;
     font-size: 25px;
-   
+        
     
 }
 .home:hover{
