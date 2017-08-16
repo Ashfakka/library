@@ -2,15 +2,15 @@
     background-image: url('../../../assets/lib.jpg');
     background-size: cover;
     width:100%;
-    height: 100%;
+    height: 100vh;
     
 }
  .table-responsive{
      padding: 10px;
-    width: 40rem;
+    width: 29rem;
     height: 11rem;
     text-align: center;
-    transform: translate(88%,58%); 
+    transform: translate(85%,50%); 
     background-color:#f0dcf7; 
     opacity: 0.8 ;
     z-index: auto;

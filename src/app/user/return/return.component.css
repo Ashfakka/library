@@ -1,17 +1,15 @@
 .table-responsive{
-      padding: 10px; 
-    
-    height: 20rem;
-    width: 60rem;  
+     padding: 10px;
+    width: 50%;
+    height: 50%;
     text-align: center;
-    transform: translate(58%,59%); 
-    background-color:#f0dcf7;
+    transform: translate(50%,25%); 
+    background-color:#f0dcf7; 
     opacity: 0.8 ;
     z-index: auto;
     box-sizing: content-box;
-    position: relative; 
-}
-
+    
+} 
 th{
     font-family: "Roboto", sans-serif;
     color: #a412d1;
@@ -22,11 +20,11 @@ th{
 }
 
 .window{
-    background-image: url('../../../assets/lib.jpg');
-    background-size: cover;
-    width:100%;
-    height: 100vh;
-    
+   background-image: url('../../../assets/lib.jpg');
+   background-size: cover;
+   width: 100%;
+   height: 86%;
+   position: fixed
 }
 
  button{
@@ -45,3 +43,7 @@ th{
     margin-left: 1rem;
 
    }
+table{
+    border-collapse: collapse;
+    width:40rem;
+  } 
