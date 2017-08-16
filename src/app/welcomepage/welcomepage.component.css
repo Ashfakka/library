@@ -18,7 +18,9 @@ h2{
     color: #a412d1;
     cursor: pointer;
    }
-
+h2:hover{
+    color: black;
+}
 .tabs{
     background-color:#a412d1; 
     width: 100%;

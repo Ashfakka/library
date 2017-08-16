@@ -20,14 +20,14 @@ export class UserComponent implements OnInit {
 //     document.getElementById('mySidebar').style.display = 'none';
 // }
   // tslint:disable-next-line:one-line
-  gotocontact() {
+  gotoContact() {
     this.router.navigateByUrl('/user/usercontact');
   }
 
-  gotoabout() {
+  gotoAbout() {
     this.router.navigateByUrl('/user/userabout');
   }
-  gotohome() {
+  gotoHome() {
      this.router.navigateByUrl('/user/userhome');
   }
 

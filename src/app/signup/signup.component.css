@@ -1,14 +1,15 @@
-.table-responsive{
+.table-responsive {
     width: 50%;
     height: 80%;
     text-align: center;
     transform: translate(50%,15%);
     background-color:#f0dcf7;
     opacity: 0.8 ;
-     z-index: auto; 
+    z-index: auto; 
     position: fixed;
 }
- input{
+
+input {
     margin-top: 1rem;
     font-family: "Roboto", sans-serif;
     outline: 0;
@@ -22,25 +23,25 @@
     opacity: 1;
     margin-left: 6rem;
 
-  
 }
-th{
+
+th {
     font-family: "Roboto", sans-serif;
     color: #a412d1;
     font-size: 19px;
     text-align: left;
-   
     text-transform: uppercase;
 }
 
-.window{
+.window {
     background-image: url('../../assets/lib.jpg');
     background-size: cover;
     width:100%;
     height: 100vh;
     
 }
- button{
+
+button {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
@@ -56,8 +57,9 @@ th{
     margin-top: 1rem; 
     margin-left: 6rem;
     display: block;
-   }
-table{
+}
+
+table {
     border-collapse: collapse;
     width:27rem;
   } 

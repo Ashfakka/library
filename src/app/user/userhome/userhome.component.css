@@ -1,11 +1,12 @@
-.window{
+.window {
    
    width: 100%;
    height: 100%;
    position: fixed
 }
-.container{
- background-image: url('../../../assets/lib.jpg');
+
+.container {
+   background-image: url('../../../assets/lib.jpg');
    background-size: cover;
    width: 100%;
    height: 100%;
@@ -28,20 +29,23 @@
     .return{
      height: 20vh;
     width: 12vw;
+     background-color:  #f0dcf7;
     transform: translate(349%, 38% );
-    background-color:  #f0dcf7;
+    opacity: 1;
+    text-align: center; 
     background-image: url('../../../assets/bookreturn.png');
     background-size: 60px 60px;
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #A6ACAF;
-    text-align: center; 
-    cursor: pointer
+ 
+    cursor: pointer;
 }
+
      .history{
-     height: 20vh;
+         height: 20vh;
     width: 12vw;
-    /* margin-left: 70%; */
+    
    transform: translate(625% , -64%);
     background-color:  #f0dcf7;
     background-image: url('../../../assets/bookhistory.jpg');
@@ -50,8 +54,8 @@
     background-position: center;
     border: 1px solid #A6ACAF;
     opacity: 1;
-     text-align: center; 
-     cursor: pointer
+    text-align: center; 
+    cursor: pointer
 }
       .allignfirst{
      
