@@ -10,24 +10,23 @@ import { Router } from '@angular/router';
 })
 export class WelcomepageComponent implements OnInit {
 
-  constructor( private router:Router) { }
+  constructor( private router: Router) { }
 
   ngOnInit() {
   }
-  
-   gotocontact(){
+  gotoContact() {
     this.router.navigateByUrl('/welcomepage/contact');
   }
-  gotoabout(){
+  gotoAbout() {
     this.router.navigateByUrl('/welcomepage/about');
   }
-  gotohome(){
+  gotoHome() {
      this.router.navigateByUrl('/welcomepage/home');
   }
-gotosignin(){
+gotoSignIn() {
   this.router.navigateByUrl('/login');
 }
-gotosignup(){
+gotoSignUp() {
   this.router.navigateByUrl('/signup');
 }
 }

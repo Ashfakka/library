@@ -8,16 +8,14 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
-  constructor(private router:Router) { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
-  gotohome(){
+  gotoHome() {
    this.router.navigateByUrl('/welcomepage/home');
-   
-}
-gotouser(){
-   this.router.navigateByUrl('/user/userhome');
-   
-}
+  }
+  gotoUser() {
+    this.router.navigateByUrl('/user/userhome');
+  }
 }

@@ -1,88 +1,69 @@
-
-
-
-.window{
-    
-    /* position: fixed; */
+.window {
     margin: 0;
     width: 100%;
     height: 100%;
-     /* background-image: url('../../assets/lib.jpg'); */
-   /* background-size: cover;
-    */
-}
-img{
-    /* position: fixed; */
-    height: 5%;
-    width: 5%;
-    margin-top: -3.5%;
-
 }
 
-
-h1{
+h1 {
     color: #a412d1;
     background-color: white   ;
     margin-top: 0rem;
     font-family:" Roboto";
 
 }
-h2{
+
+h2 {
    
     margin-top: -3.4rem;
     float: right;
     color: #a412d1;
     cursor: pointer;
+    font-family:" Roboto";
 }
-.tabs{
+
+.tabs {
     width: 100%;
     background: #a412d1;
-    height: 3rem;
-    margin-top: -1rem;
-   text-align: right;
+    height: 7rem;
+    padding-top: 15px;
+    text-align: right;
 }
-.home{
+
+.home {
     color: ivory;
     cursor: pointer;
     font-size: 25px;
         
-    
+    font-family:" Roboto";
 }
-.home:hover{
+
+.home:hover {
    color: black;
 }
-.about{
+
+.about {
     color: ivory;
     cursor: pointer;
     font-size: 25px;
     margin-left: 2rem;
-    
+    font-family:" Roboto";
 }
-.about:hover{
+
+.about:hover {
    color: black;
 }
-.contact{
+
+.contact {
     color: ivory;
     cursor: pointer;
     font-size: 25px;
     margin-left: 2rem;
-    
+    font-family:" Roboto";
 }
-.contact:hover{
+
+.contact:hover {
    color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .sidenav {
     height: 100%;

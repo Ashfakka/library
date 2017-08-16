@@ -1,25 +1,26 @@
-.table-responsive{
-     padding: 10px;
-    width: 50%;
+.table-responsive {
+    padding: 10px;
+    width: 43%;
     height: 50%;
     text-align: center;
-    transform: translate(50%,25%); 
+    transform: translate(55%,25%); 
     background-color:#f0dcf7; 
     opacity: 0.8 ;
     z-index: auto;
     box-sizing: content-box;
-    
+    position: relative;
 } 
-th{
+
+th {
     font-family: "Roboto", sans-serif;
     color: #a412d1;
     font-size: 19px;
     text-align: center;
     padding-top: 3rem;
-    text-transform: uppercase;
+
 }
 
-.window{
+.window {
    background-image: url('../../../assets/lib.jpg');
    background-size: cover;
    width: 100%;
@@ -27,23 +28,21 @@ th{
    position: fixed
 }
 
- button{
+button {
     font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
     outline: 0;
     background: #a412d1;
-    width: 10rem;
-    height: 3rem;
+    width: 6rem;
     border: 0;
     color: #FFFFFF;
     font-size: 14px;
     -webkit-transition: all 0.3 ease;
-    transition: all 0.3 ease;
+    transition: all 0.3 ease; 
     cursor: pointer;
-    margin-left: 1rem;
+    
+}
 
-   }
-table{
+table {
     border-collapse: collapse;
-    width:40rem;
+    width:50rem; 
   } 
