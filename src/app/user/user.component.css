@@ -106,16 +106,16 @@ h2 {
     margin-left: 50px;
 }
 
-/* #main {
+ #main {
     transition: margin-left .5s;
     padding: 20px;
     
-} */
+} 
 
-/* @media screen and (max-height: 450px) {
+ @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-} */
+} 
 
 .a {
     width: 35px;
