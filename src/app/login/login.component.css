@@ -1,7 +1,7 @@
 .table-responsive {
-    width: 50%;
+    width: 36%;
     height: 50%;
-    transform: translate(50%,50%);
+    transform: translate(84%,50%);
     text-align: center;
     background-color:#f0dcf7;
     opacity: 0.8 ;
@@ -9,7 +9,7 @@
 }
 
 input {
-    margin-top: 2.5rem; 
+    margin-top: 0.5rem;  
     font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
@@ -21,10 +21,11 @@ input {
     opacity: 1;
     position: relative;
     border: 0;
+    margin-left: 10rem; 
     
 }
 
-input {
+/* input {
     margin-top: 1rem;
     font-family: "Roboto", sans-serif;
     outline: 0;
@@ -37,7 +38,7 @@ input {
     background:#d6ffff ;
     opacity: 1;
     
-}
+} */
 
 .window {
     background-image: url('../../assets/lib.jpg');
@@ -61,4 +62,10 @@ input {
     transition: all 0.3 ease;
     cursor: pointer;
     margin-top: 1rem;
+    margin-left: 10rem; 
+    display: block;
 }
+/* table {
+    border-collapse: collapse;
+    width:100%;
+  }  */
