@@ -1,4 +1,5 @@
 .about {
+<<<<<<< HEAD
      background-color: #f0dcf7;
    
     width: 100%;
@@ -7,6 +8,11 @@
     
 }
 p{
+=======
+    background-color: #f0dcf7;
+    margin-top: -1rem;
+   
+>>>>>>> 5c5e91d270b5736cf6682f2583f61facba39ee78
     text-align: left;
 }
 
@@ -16,9 +22,16 @@ h1 {
       background-color: #f0dcf7;
 
 }
+<<<<<<< HEAD
     .container{
              background-color: #f0dcf7;
    /* background-size: cover; */
    width: 100%;
     height: auto; 
     }
+=======
+   p{
+        height: 49rem;
+      
+    }  
+>>>>>>> 5c5e91d270b5736cf6682f2583f61facba39ee78
