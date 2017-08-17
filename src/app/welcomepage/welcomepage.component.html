@@ -1,31 +1,30 @@
-
 <div class="window">
 
     <h1><strong>Library</strong></h1>
     <h2 (click)="gotoSignIn()"><strong>Sign In</strong></h2>
     <div class="innercontainer">
-      <div>  
-        <div class="tabs">
-           <br> <span class="home" (click)="gotoHome()">Home</span>
-           
-            <span class="about" (click)="gotoAbout()">About Us</span>
-             <span class="contact" (click)="gotoContact()">Contact Us</span>
-            
-            
+        <div>
+            <div class="tabs">
+                <br> <span class="home" (click)="gotoHome()">Home</span>
 
-<router-outlet></router-outlet>
-            <!-- <div class="container"></div>  -->
-         <div class="joinus">
-            <a href="/signup">Join Us</a> 
+                <span class="about" (click)="gotoAbout()">About Us</span>
+                <span class="contact" (click)="gotoContact()">Contact Us</span>
 
-            <div class="quote">
-                <p>A library is the delivery room for the birth of ideas - a place where history comes to life.</p>
+
+
+                <router-outlet></router-outlet>
+
+                <div class="joinus">
+                    <a href="/signup">Join Us</a>
+
+                    <div class="quote">
+                        <p>A library is the delivery room for the birth of ideas - a place where history comes to life.</p>
+                    </div>
+                </div>
+
+
             </div>
         </div>
-
-
-        </div>
-      </div>
     </div>
-    
+
 </div>

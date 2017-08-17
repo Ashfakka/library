@@ -11,5 +11,7 @@ export class ReturnComponent implements OnInit {
 
   ngOnInit() {
   }
-
+gotoReturnBook() {
+  alert('Your request has been send');
+}
 }
