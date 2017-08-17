@@ -1,8 +1,9 @@
-.img{
+
+.img-responsive{
    width: 100%;
    
     opacity: 0.8  ;
-    height: 27rem;
+    height: 45rem;
     background-image: url('../../../assets/lib.jpg');    
     background-size: cover; 
 }
@@ -10,12 +11,13 @@
 .firstquote{
    
      
-    transform: translate(0%, 170%);
+    transform: translate(0%, 121%);
     text-align: right;
     padding-right: 50px;
 
-    
-    
-    
+       
 
+}
+blockquote{
+    padding: 0;
 }

@@ -18,14 +18,19 @@
     box-sizing: content-box;
 } 
 
-th {
+td,th {
     font-family: "Roboto", sans-serif;
     color: #a412d1;
     font-size: 19px;
     height: 3rem;
     text-align: center;
 }
-table {
+/* table {
     border-collapse: collapse;
-    width:40rem;
-  } 
+    width:100%;
+  }  */
+/* @media only screen and (max-width: 500px){
+    table {
+        width:30rem;
+    }
+}  */
