@@ -1,7 +1,7 @@
 .table-responsive {
     width: 36%;
-    height: 50%;
-    transform: translate(84%,50%);
+    height: 52%;
+    transform: translate(85%,50%);
     text-align: center;
     background-color:#f0dcf7;
     opacity: 0.8 ;
@@ -13,7 +13,7 @@ input {
     font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
-    width: 50%;
+    width: 60%;
     height: 50px;
     box-sizing: border-box;
     font-size: 14px;
@@ -25,20 +25,6 @@ input {
     
 }
 
-/* input {
-    margin-top: 1rem;
-    font-family: "Roboto", sans-serif;
-    outline: 0;
-    background: #f2f2f2;
-    width: 50%;
-    height: 50px;
-    border: 0;
-    box-sizing: border-box;
-    font-size: 14px;
-    background:#d6ffff ;
-    opacity: 1;
-    
-} */
 
 .window {
     background-image: url('../../assets/lib.jpg');
@@ -48,12 +34,12 @@ input {
     
 }
 
-.table-responsive button {
+button {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
     background: #a412d1;
-    width: 50%;
+    width: 60%;
     border: 0;
     padding: 15px;
     color: #FFFFFF;
@@ -65,7 +51,23 @@ input {
     margin-left: 10rem; 
     display: block;
 }
-/* table {
-    border-collapse: collapse;
-    width:100%;
-  }  */
+ @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .table-responsive {
+    width: 68%;
+    height: 52%;
+    transform: translate(22%,50%);
+    text-align: center;
+    background-color:#f0dcf7;
+    opacity: 0.8 ;
+    box-sizing: content-box;
+}
+input{
+    margin-left:2rem;
+    }
+button{
+    margin-left:2rem;
+}
+} 
