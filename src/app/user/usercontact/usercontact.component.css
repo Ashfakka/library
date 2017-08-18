@@ -1,6 +1,6 @@
 .contact {
     background-color: #f0dcf7;
-    /* height: 35rem; */
+     height: 54rem; 
     margin-top: -1rem;
     text-align: left;
 }
@@ -8,7 +8,20 @@
 h1 {
       color: #a412d1;
 }
-     p{
-        height: 49rem;
-       
-    } 
+     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+     .contact{
+         height: 53rem;
+     }
+ }
+    /*iPad  */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+     .contact{
+         height: 75rem;
+     }
+ }
+    /*iPad  pro */
+ @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px){
+     .contact{
+         height: 110rem;
+     }
+ }

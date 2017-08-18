@@ -189,3 +189,140 @@ h2 {
     margin-left: 0rem;
 }
 }    
+
+  /*iPad  */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+      
+h1{
+font-size: 60px;    
+}
+h2{
+    font-size: 50px;
+    margin-top: -7rem;
+}
+.window{
+    width: 100%;
+    height: 100%;
+     
+}
+.tabs{
+    width: 100%;
+    background-color: #a412d1; 
+    display: block;
+    text-align: left;
+    height: 23rem;
+}
+.home{
+    color: ivory;
+    cursor: pointer;
+    font-size: 50px;
+        
+    font-family:" Roboto";
+}
+.about{
+    color: ivory;
+    cursor: pointer;
+    font-size: 50px;
+     display: block;   
+    font-family:" Roboto";
+    margin-left: 0rem;
+}
+.contact{
+    color: ivory;
+    cursor: pointer;
+    font-size: 50px;
+     display: block;       
+    font-family:" Roboto";
+    margin-left: 0rem;
+}
+
+.joinus{
+    font-size: 60px;
+  
+    color: #a412d1;
+    /* transform: translate(0%, 0%); */
+    background-color:#ddcedd;
+    /* height: 9rem; */
+    text-align: center;
+    /* margin-top: 0.3rem; */
+    width: 100%;
+    height: 77%;
+
+}
+.quote{
+    text-align: center;
+    font-size: 36px;
+    width: 100%;
+    height: 100%;
+ background-color:#ddcedd;
+    
+}
+}    
+/*iPad  pro */
+ @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px){
+          
+h1{
+font-size: 81px;    
+}
+h2{
+    font-size: 63px;
+    margin-top: -7rem;
+}
+.window{
+    width: 100%;
+    height: 100%;
+     
+}
+.tabs{
+    width: 100%;
+    background-color: #a412d1; 
+    display: block;
+    text-align: left;
+    height: 32rem;
+}
+.home{
+    color: ivory;
+    cursor: pointer;
+    font-size: 70px;
+        
+    font-family:" Roboto";
+}
+.about{
+    color: ivory;
+    cursor: pointer;
+    font-size: 70px;
+     display: block;   
+    font-family:" Roboto";
+    margin-left: 0rem;
+}
+.contact{
+    color: ivory;
+    cursor: pointer;
+    font-size: 70px;
+     display: block;       
+    font-family:" Roboto";
+    margin-left: 0rem;
+}
+
+.joinus{
+    font-size: 60px;
+  
+    color: #a412d1;
+    /* transform: translate(0%, 0%); */
+    background-color:#ddcedd;
+    /* height: 9rem; */
+    text-align: center;
+    /* margin-top: 0.3rem; */
+    width: 100%;
+    height: 77%;
+
+}
+.quote{
+    text-align: center;
+    font-size: 36px;
+    width: 100%;
+    height: 100%;
+ background-color:#ddcedd;
+    /* margin-left: -16rem; */
+}
+}    

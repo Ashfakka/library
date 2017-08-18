@@ -18,6 +18,12 @@ h1{
       /*iPad  */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   p{
-          height: 53em;
+          height: 27em;
+       }
+     }
+      /*iPad  pro */
+ @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px){
+    p{
+          height: 38em;
        }
      }

@@ -21,3 +21,13 @@
 blockquote{
     padding: 0;
 }
+/*iPad  pro */
+ @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px){
+    .img-responsive{
+        height: 61rem;
+        width: 100%;
+    }
+    blockquote{
+        font-size: 36px;
+    }
+ }

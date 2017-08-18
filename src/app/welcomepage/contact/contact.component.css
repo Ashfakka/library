@@ -10,3 +10,20 @@ h1{
      p{
       height: 37rem;
     }
+     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       p{
+          height: 20em;
+       }
+     }
+      /*iPad  */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  p{
+          height: 27em;
+       }
+     }
+      /*iPad  pro */
+ @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px){
+    p{
+          height: 38em;
+       }
+     }
