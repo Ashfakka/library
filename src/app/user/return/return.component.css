@@ -42,7 +42,39 @@ button {
     
 }
 
-table {
-    border-collapse: collapse;
-    width:50rem; 
-  } 
+
+
+  /* smartphones */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .table-responsive {
+        padding: 0px;
+        width: 87%;
+        height: 50%;
+        text-align: center;
+        transform: translate(7%,20%);
+        background-color:#f0dcf7;
+        opacity: 0.8 ;
+        box-sizing: content-box;
+    }
+    th,td {
+        font-size: 14px;
+    }
+    
+}  
+/*iPad  */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .table-responsive {
+        padding: 10px;
+        width: 55%;
+        height: 50%;
+        transform: translate(35%,25%);
+        text-align: center;
+        background-color:#f0dcf7;
+        opacity: 0.8 ;
+        box-sizing: content-box;
+    }
+    th,td {
+        font-size: 14px;
+    }
+    
+}    
