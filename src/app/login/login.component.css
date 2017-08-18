@@ -25,7 +25,6 @@ input {
     
 }
 
-
 .window {
     background-image: url('../../assets/lib.jpg');
     background-size: cover;
@@ -51,10 +50,8 @@ button {
     margin-left: 10rem; 
     display: block;
 }
- @media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) {
+/* smartphones */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .table-responsive {
     width: 68%;
     height: 52%;
@@ -63,11 +60,29 @@ button {
     background-color:#f0dcf7;
     opacity: 0.8 ;
     box-sizing: content-box;
-}
-input{
-    margin-left:2rem;
     }
-button{
-    margin-left:2rem;
+    input{
+        margin-left:5rem;
+        }
+    button{
+        margin-left:5rem;
+    }
 }
-} 
+/*iPad  */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .table-responsive {
+        width: 51%;
+        height: 35%;
+        transform: translate(45%,89%);
+        text-align: center;
+        background-color:#f0dcf7;
+        opacity: 0.8 ;
+        box-sizing: content-box;
+    }
+    input{
+        margin-left:7rem;
+    }
+    button{
+        margin-left:7rem;
+    }
+}  
