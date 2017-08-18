@@ -1,5 +1,4 @@
 .window {
-   
    width: 100%;
    height: 100%;
    position: fixed
@@ -10,9 +9,9 @@
    background-size: cover;
    width: 100%;
    height: 100%;
-   
 }
- .booksearch{
+
+.booksearch {
     height: 20vh;
     width: 12vw;
     transform: translate(73%, 138%);
@@ -26,10 +25,10 @@
     cursor: pointer;
 } 
    
-    .return{
-     height: 20vh;
+.return {
+    height: 20vh;
     width: 12vw;
-     background-color:  #f0dcf7;
+    background-color:  #f0dcf7;
     transform: translate(349%, 38% );
     opacity: 1;
     text-align: center; 
@@ -38,15 +37,13 @@
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #A6ACAF;
- 
     cursor: pointer;
 }
 
-     .history{
-         height: 20vh;
+.history {
+    height: 20vh;
     width: 12vw;
-    
-   transform: translate(625% , -64%);
+    transform: translate(625% , -63%);
     background-color:  #f0dcf7;
     background-image: url('../../../assets/bookhistory.jpg');
     background-size: 60px 60px;
@@ -57,6 +54,7 @@
     text-align: center; 
     cursor: pointer
 }
+
 span {
     font-family: cursive;
     text-align: center;
