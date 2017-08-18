@@ -21,13 +21,29 @@
 blockquote{
     padding: 0;
 }
-/*iPad  pro */
- @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px){
-    .img-responsive{
-        height: 61rem;
-        width: 100%;
-    }
-    blockquote{
-        font-size: 36px;
-    }
+ @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+     .img-responsive{
+         width: 100%;
+         height: 38rem;
+     }
+        blockquote{
+            font-size: 19px;
+        }
+        .firstquote{
+             transform: translate(0%, 70%);
+        }
  }
+     /*iPad  */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .img-responsive{
+         width: 100%;
+         height: 45rem;
+     }
+        blockquote{
+            font-size: 29px;
+        }
+        .firstquote{
+             transform: translate(0%, 95%);
+        }
+ }
+  

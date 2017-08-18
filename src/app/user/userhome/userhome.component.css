@@ -25,11 +25,7 @@
     cursor: pointer;
 } 
    
-<<<<<<< HEAD
     .return{
-=======
-.return {
->>>>>>> 828307337b7474b2d7128179dbe5553e68f32c3a
     height: 20vh;
     width: 12vw;
     background-color:  #f0dcf7;
@@ -44,11 +40,7 @@
     cursor: pointer;
 }
 
-<<<<<<< HEAD
      .history{
-=======
-.history {
->>>>>>> 828307337b7474b2d7128179dbe5553e68f32c3a
     height: 20vh;
     width: 12vw;
     transform: translate(625% , -63%);
@@ -63,21 +55,22 @@
     cursor: pointer
 }
 
-span {
+.allignfirst {
     font-family: cursive;
-<<<<<<< HEAD
+    margin-top: 6rem;
+    font-size: 24px;
 }  
  .allignsecond{
 
     font-family: cursive;
+    margin-top: 6rem;
+    font-size: 24px;
 }
 .allignthird{
 
     font-family: cursive;
-=======
-    text-align: center;
-    
->>>>>>> 828307337b7474b2d7128179dbe5553e68f32c3a
+    margin-top: 6rem;
+    font-size: 24px;
 }
 
   
@@ -168,7 +161,7 @@ span {
 }
  }
  /*iPad  pro */
- @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px){
+ /* @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px){
      .window {
    
    width: 100%;
@@ -209,4 +202,4 @@ span {
     margin-top: 18rem;
     font-size: 53px;
 }
- }
+ } */
