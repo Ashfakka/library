@@ -7,6 +7,7 @@
     opacity: 0.8 ;
     z-index: auto; 
     position: fixed;
+    
 }
 
 input {
@@ -26,11 +27,12 @@ input {
 }
 
 th {
-    font-family: "Roboto", sans-serif;
+    font-family: cursive;
     color: #a412d1;
     font-size: 19px;
     text-align: left;
     text-transform: uppercase;
+    vertical-align: middle !important;
 }
 
 .window {
@@ -58,11 +60,6 @@ button {
     margin-left: 6rem;
     display: block;
 }
-
-/*table {
-    border-collapse: collapse;
-    width:27rem;
-  }  */
 
   /* smartphones */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {

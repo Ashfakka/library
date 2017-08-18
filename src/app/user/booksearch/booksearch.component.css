@@ -51,3 +51,35 @@
     margin-left: 1rem;
   
 }
+
+.book {
+    text-align: left;
+    margin-left: 2.5rem;
+}
+ /* smartphones */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .container {
+    width: 56%;
+    height: 50%;
+    text-align: center;
+    transform: translate(0%,25%);
+    background-color:#f0dcf7; 
+    opacity: 0.8 ;
+    z-index: auto;
+    position: relative;
+    box-sizing: content-box;
+    }
+}   
+/*iPad  */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .container {
+        padding: 10px;
+        width: 53%;
+        height: 45%;
+        transform: translate(0%,35%);
+        text-align: center;
+        background-color:#f0dcf7;
+        opacity: 0.8 ;
+        box-sizing: content-box;
+    }
+}     

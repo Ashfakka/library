@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AppRoutingModule } from '../../app.routing.module';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-booksearch',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BooksearchComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
-
+  gotoSearch() {
+    this.router.navigateByUrl('user/details');
+  }
 }
