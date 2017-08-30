@@ -74,9 +74,9 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .container {
         padding: 10px;
-        width: 53%;
-        height: 45%;
-        transform: translate(0%,35%);
+        width: 48%;
+        height: 34%;
+        transform: translate(0%,60%);
         text-align: center;
         background-color:#f0dcf7;
         opacity: 0.8 ;

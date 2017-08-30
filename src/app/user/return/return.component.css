@@ -49,9 +49,9 @@ button {
     .table-responsive {
         padding: 0px;
         width: 87%;
-        height: 50%;
+        height: 44%;
         text-align: center;
-        transform: translate(7%,20%);
+        transform: translate(7%,43%);
         background-color:#f0dcf7;
         opacity: 0.8 ;
         box-sizing: content-box;
@@ -73,5 +73,7 @@ button {
         opacity: 0.8 ;
         box-sizing: content-box;
     }
-    
+    th,td {
+        font-size: 22px;
+    }
 }    
