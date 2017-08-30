@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AppRoutingModule } from '../app.routing.module';
 import { Router } from '@angular/router';
+import { SignupService } from '../services/signup/signup.service';
 
 @Component({
   selector: 'app-signup',
@@ -8,14 +9,33 @@ import { Router } from '@angular/router';
   styleUrls: ['./signup.component.css']
 })
 export class SignupComponent implements OnInit {
-
-  constructor(private router:Router) { }
+  private user: any;
+  constructor(private router:Router, private signupService: SignupService) {
+  
+   }
 
   ngOnInit() {
+    this.user = {
+      userName: '',
+      emailID: '',
+      password: '',
+      phoneNo: '',
+    };
   }
 gotoLogin() {
-   this.router.navigateByUrl('/login');
+  this.signupService.registerUser(this.user, response => {
+      if (response.responseCode === 0) {
+        alert('User created Sucessfully');
+        this.router.navigateByUrl('/login');
+      } else {
+        alert('Error');
+        this.router.navigateByUrl('welcomepage/home');
+      }
+    }, error => {
+      // TODO Show toast message on server errors
+    });
   }
+  
   gotoHome() {
     this.router.navigateByUrl('/welcomepage/home');
   }
