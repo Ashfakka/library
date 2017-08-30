@@ -3,6 +3,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app.routing.module';
 import { FormsModule } from '@angular/forms';
 
+import { SignupService } from './services/signup/signup.service';
+import { ApicallService } from './utilities/apicall/apicall.service';
+import { HttpModule } from '@angular/http';
+import { ApiurlService } from './utilities/apiurl/apiurl.service';
+import { LoginService } from './services/login/login.service';
+import { CommonUserDetailService } from './services/common-user-detail/common-user-detail.service';
+
+
 
 import { AppComponent } from './app.component';
 import { WelcomepageComponent } from './welcomepage/welcomepage.component';
@@ -39,9 +47,16 @@ import { HistoryComponent } from './user/history/history.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [
+    SignupService,
+    ApicallService,
+    ApiurlService,
+    LoginService,
+    CommonUserDetailService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
