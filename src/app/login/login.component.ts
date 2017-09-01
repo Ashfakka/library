@@ -18,8 +18,8 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
     this.userDetail = {
       emailID: '',
-      password:''
-    }
+      password: ''
+    };
   }
 
   gotoHome() {
@@ -36,7 +36,5 @@ export class LoginComponent implements OnInit {
     }, error => {
       // TODO Show toast message on server errors
     });
-
-   
   }
 }

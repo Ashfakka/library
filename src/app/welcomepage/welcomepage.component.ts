@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 })
 export class WelcomepageComponent implements OnInit {
 
-  constructor( private router: Router) { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
@@ -21,12 +21,12 @@ export class WelcomepageComponent implements OnInit {
     this.router.navigateByUrl('/welcomepage/about');
   }
   gotoHome() {
-     this.router.navigateByUrl('/welcomepage/home');
+    this.router.navigateByUrl('/welcomepage/home');
   }
-gotoSignIn() {
-  this.router.navigateByUrl('/login');
-}
-gotoSignUp() {
-  this.router.navigateByUrl('/signup');
-}
+  gotoSignIn() {
+    this.router.navigateByUrl('/login');
+  }
+  gotoSignUp() {
+    this.router.navigateByUrl('/signup');
+  }
 }

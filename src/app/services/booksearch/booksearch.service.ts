@@ -5,16 +5,16 @@ import { CommonUserDetailService } from '../../services/common-user-detail/commo
 import { Http, Response } from '@angular/http';
 
 @Injectable()
-export class LoginService {
-private userDetail: any;
+export class BooksearchService {
+private book: any;
   constructor(private apicallService: ApicallService, 
     private apiurlService: ApiurlService,
     private commonUserDetailService: CommonUserDetailService
   ) { }
-  sucesslogin(successCallback, errorCallback) {
-   this.userDetail = this.commonUserDetailService.getUser();
-      let apiUrl = 'http://localhost:8080/library/login?emailID={?}&password={?}';
-      apiUrl = this.apiurlService.beautifyUrl(apiUrl, [this.userDetail.emailID, this.userDetail.password]);
+  successSearch(successCallback, errorCallback) {
+   this.book = this.commonUserDetailService.getbookName();
+      let apiUrl = 'http://localhost:8080/library//user/bookSearch?bookName={?}';
+      apiUrl = this.apiurlService.beautifyUrl(apiUrl, [this.book.bookName]);
       this.apicallService.doGetAPIAction(apiUrl, response => {
           successCallback(JSON.parse(response._body))
       }, error => {

@@ -25,7 +25,6 @@ export class SignupComponent implements OnInit {
 gotoLogin() {
   this.signupService.registerUser(this.user, response => {
       if (response.responseCode === 0) {
-        alert('User created Sucessfully');
         this.router.navigateByUrl('/login');
       } else {
         alert('Error');

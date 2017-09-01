@@ -9,7 +9,9 @@ import { HttpModule } from '@angular/http';
 import { ApiurlService } from './utilities/apiurl/apiurl.service';
 import { LoginService } from './services/login/login.service';
 import { CommonUserDetailService } from './services/common-user-detail/common-user-detail.service';
-
+import { BookDetailService } from './services/book-detail/book-detail.service';
+import { BooksearchService } from './services/booksearch/booksearch.service';
+import { IssueService } from './services/issue/issue.service';
 
 
 import { AppComponent } from './app.component';
@@ -26,6 +28,7 @@ import { UsercontactComponent } from './user/usercontact/usercontact.component';
 import { BooksearchComponent } from './user/booksearch/booksearch.component';
 import { ReturnComponent } from './user/return/return.component';
 import { HistoryComponent } from './user/history/history.component';
+import { BookDetailsComponent } from './user/book-details/book-details.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +45,8 @@ import { HistoryComponent } from './user/history/history.component';
     UsercontactComponent,
     BooksearchComponent,
     ReturnComponent,
-    HistoryComponent
+    HistoryComponent,
+    BookDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -55,6 +59,9 @@ import { HistoryComponent } from './user/history/history.component';
     ApicallService,
     ApiurlService,
     LoginService,
+    BookDetailService,
+    BooksearchService,
+    IssueService,
     CommonUserDetailService
   ],
   bootstrap: [AppComponent]

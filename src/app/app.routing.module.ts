@@ -12,6 +12,7 @@ import { UseraboutComponent } from "./user/userabout/userabout.component";
 import { UserhomeComponent } from "./user/userhome/userhome.component";
 import { UsercontactComponent } from "./user/usercontact/usercontact.component";
 import { BooksearchComponent } from "./user/booksearch/booksearch.component";
+import { BookDetailsComponent } from "./user/book-details/book-details.component";
 import { ReturnComponent } from "./user/return/return.component";
 import { HistoryComponent } from "./user/history/history.component";
 
@@ -34,6 +35,7 @@ const routes: Routes = [
              { path: 'userhome', component: UserhomeComponent },
               { path: 'usercontact', component: UsercontactComponent },
                { path: 'booksearch', component: BooksearchComponent },
+               { path: 'book-details', component: BookDetailsComponent },
                { path: 'return', component: ReturnComponent },
                 { path: 'history', component: HistoryComponent },
               
